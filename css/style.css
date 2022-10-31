@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+:root{
+    --primary-color: ;
+    --secondary-color: ;
+    --third-color: ;
+    --fourth-color: ;
+    --primary-font-size: ;
+    --secondary-font-size: ;
+    --third-font-size: ;
+    --primary-bacground-color: ;
+    --secondary-bacground-color: ;
+    --third-bacground-color: ;
+    --fourth-bacground-color: ;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* ****************Nav-Bar****************** */
+.nav_container{
+
+}
+#home{
+
+}
+.about{
+
+}
+.parcours{
+
+}
+.competence{
+
+}
+.passions{
+
+}
+.contact{
+
+}
+
+/* ****************About-Section****************** */
+#about-section{
+
+}
+.container-about{
+
+}
+.container-img{
+
+}
+.container-text-a{
+
+}
+.title-about{
+
+}
+.text{
+
+}
+
+/* ****************Parcours-Section****************** */
+#parcours-section{
+
+}
+.container.parcours{
+
+}
+.chronologie{
+
+}
+.container-text-par{
+
+}
+
+
+/* ****************Passions-Section****************** */
+#passions-section{
+
+}
+.container-passions{
+
+}
+.f-img{
+
+}
+.f-text{
+
+}
+.s-img{
+
+}
+.s-text{
+    
+}
+.t-img{
+
+}
+.t-text{
+    
+}
+.fo-img{
+
+}
+.fo-text{
+    
+}
+
+/* ****************Contacter-Footer****************** */
+.contacter-footer{
+
+}
+.grid-container{
+
+}
+.info{
+
+}
+.reseau{
+
+}
+
+/* ****************responsive (1920x1080)****************** */
+@media screen and (min-width:1920px) and (min-height: 1080px){
+    
+}
+/* ****************responsive (1366x768)****************** */
+@media screen and (max-width:1366px) and (max-height: 768px){
+    
+}
+/* ****************responsive (360x640)****************** */
+@media screen and (max-width:360px) and (max-height: 640px){
+    
+}
