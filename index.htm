@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="nav_container">
+    <div class="nav">
 
-        <ul>
+        <ul class="nav-container">
             <li id="home">
                 <a href="index.htm"> Accueil </a>
             </li>
@@ -43,15 +43,24 @@
             À Propos de Moi !
         </h1>
         <div class="container-about">
-            <div class="container-img"></div>
+            <div class="forme"></div>
+            <div class="forme2"></div>
+            <div class="container-img">
+                <img src="assets/photo.jpg" alt="photo">
+            </div>
             <div class="container-text-a">
                 <h2 class="title-about">
                     Qui suis-je ?
                 </h2>
+                <div class="trait"></div>
+                <div class="trait2"></div>
                 <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nostrum aliquam ipsam, dolorum
-                    blanditiis fugiat maxime voluptatum asperiores. Quos alias in animi necessitatibus sapiente deleniti
-                    quae placeat nostrum nesciunt natus.
+                    Je suis étudiant en 1ère année de R&T à Sophia-Antipolis. <br>
+                    j'ai appris la programmation pendant ma 1ère année de STI2D (HTML,CSS). <br><br>
+                    L'année d'après j'ai commencé a apprendre à coder en python puis en C et C++ (j'ai pas trop accroché pour le C !). <br>
+                    Et j'ai aussi fait beaucoup d'Arduino et de PHP ! <br> <br>
+                    J'essaie aussi de ne rater aucune sorti avec mes amies ! <br>
+                    Toujours accompagné par Modération et Guinness.
                 </p>
             </div>
         </div>
@@ -59,17 +68,36 @@
     </section>
 
     <section id="parcours-section">
-        <h1>
+        <h1 id="title-parcours">
             Mon Parcours
         </h1>
         <div class="container-parcours">
             <div class="chronologie">
-
+                <h2 class="for-p1">Collège</h2>
+                <h2 class="for-p3">Première</h2>
+                <h2 class="for-p5">1ère année R&T</h2>
+                <div class="container-text-par">
+                    <p class="p1"></p>
+                    <p class="p3"></p>
+                    <p class="p5"></p>
+                </div>
             </div>
-            <div class="container-text-par">
-
+            <div class="chronologie1">
+                <div class="container-text-par1">
+                    <p class="p2"></p>
+                    <p class="p4"></p>
+                </div>
             </div>
         </div>
+        <div class="cache"></div>
+        <div class="cache1"></div>
+        <div class="trait3">
+            <h2 class="for-p2">Covid</h2>
+            <h2 class="for-p4">Terminale</h2>
+        </div>
+        <div class="trait4"></div>
+        <div class="trait5"></div>
+        
     </section>
 
     <section id="passions-section">
@@ -93,7 +121,7 @@
         </div>
     </section>
 
-    <footer class="contacter-footer">
+    <footer id="contacter-footer">
         <h1>Me contacter !
 
         </h1>
