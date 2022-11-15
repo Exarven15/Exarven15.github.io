@@ -24,6 +24,7 @@ html {
     scroll-behavior: smooth;
     background-color: var(--fith-color);
     color: var(--average-color);
+    overflow-x: hidden;
 }
 
 a {
@@ -536,7 +537,7 @@ li {
     }
 
     .info {
-        margin-top: 8%;
+        margin-top: 6%;
         grid-area: 1 / 2 / 2 / 3;
         display: grid;
     }
@@ -558,7 +559,7 @@ li {
     section {
         height: 70vh;
     }
-
+    
     footer {
         height: 25vh;
     }
@@ -699,15 +700,17 @@ li {
         width: 500px;
         height: 500px;
     }
+    
 
     .title-about {
+        padding-top: 4%;
         font-size: 2rem;
         text-decoration: wavy underline var(--average-color);
     }
 
     .trait {
         position: absolute;
-        top: 58.5%;
+        top: 63%;
         height: 0.5%;
         right: 12%;
         background-color: var(--primary-color);
@@ -716,7 +719,7 @@ li {
 
     .trait2 {
         position: absolute;
-        top: 80%;
+        top: 84%;
         height: 0.5%;
         background-color: var(--primary-color);
         right: 12%;
@@ -761,7 +764,7 @@ li {
     .chronologie {
         position: relative;
         background-color: var(--third-color);
-        top: -8.2%;
+        top: -1%;
         border-radius: 30px;
         width: 100%;
         height: 40%;
@@ -770,7 +773,7 @@ li {
 
     .chronologie h2 {
         display: inline-flex;
-        padding-top: 13%;
+        padding-top: 12%;
 
     }
 
@@ -786,7 +789,7 @@ li {
     .chronologie1 {
         position: relative;
         background-color: var(--third-color);
-        top: 15%;
+        top: 21%;
         width: 100%;
         height: 40%;
         border-radius: 30px;
@@ -868,16 +871,16 @@ li {
     .trait3 {
         display: inline-flex;
         position: absolute;
-        top: 181%;
+        top: 183.2%;
         height: 0.5%;
         background-color: var(--primary-color);
-        width: 97.8%;
+        width: 97.8%;   
 
     }
 
     .trait4 {
         position: absolute;
-        top: 140%;
+        top: 145%;
         width: 100%;
         height: 5%;
         background-color: var(--primary-color);
@@ -885,7 +888,7 @@ li {
 
     .trait5 {
         position: absolute;
-        top: 213%;
+        top: 217%;
         width: 100%;
         height: 5%;
         background-color: var(--primary-color);
@@ -896,32 +899,34 @@ li {
     /* ****************Passions-Section****************** */
     #passions-section {
         background-color: var(--sixth-color);
-        height: 100vh;
+        height: 260vh;
     }
 
     #passions-section h1 {
         text-align: center;
         font-size: 3rem;
+        margin-bottom: 20%;
 
     }
 
     .container-passions {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap:nowrap;
         justify-content: center;
         align-items: center;
-        align-content: center;
-        width: 100%;
-        height: 80vh;
-        flex-direction: column;
+        align-content: baseline;
+        width: 80%;
+        height: 120vh;
+        flex-direction:column;
     }
 
 
     .f-img {
         width: 250px;
         height: 100px;
-        margin: 0 10% 0 0;
+        margin: 0 0% 20% 0;
         z-index: 3;
+        float : left;
     }
 
     .f-img:hover {
@@ -931,16 +936,17 @@ li {
 
     .f-text {
         position: absolute;
-        top: 228.5%;
-        left: 15.1%;
+        top: 250%;
+        left: 30.2%;
         background-color: var(--sixth-color);
         z-index: 1;
-        width: 500px;
+        width: 455px;
         height: 300px;
         margin: 5px;
         text-align: center;
         font-size: 3rem;
         padding-top: 5%;
+        
     }
 
     .f-text:hover {
@@ -950,8 +956,9 @@ li {
     .s-img {
         width: 250px;
         height: 100px;
-        margin: 5% 10% 0 0;
+        margin: 0 0% 20% 0;
         z-index: 3;
+        
     }
 
     .s-img:hover {
@@ -963,10 +970,10 @@ li {
         position: absolute;
         background-color: var(--sixth-color);
         z-index: 1;
-        top: 228.5%;
-        right: 14.1%;
-        width: 500px;
-        height: 300px;
+        top: 310%;
+        right: 35.9%;
+        width: 450px;
+        height: 250px;
         margin: 5px;
         text-align: center;
         font-size: 3rem;
@@ -981,7 +988,7 @@ li {
     .t-img {
         width: 250px;
         height: 100px;
-        margin: 0 0 0 10%;
+        margin: 0% 0 20% 0%;
         z-index: 3;
     }
 
@@ -994,10 +1001,10 @@ li {
         position: absolute;
         background-color: var(--sixth-color);
         z-index: 1;
-        left: 14%;
-        top: 270.6%;
-        width: 500px;
-        height: 300px;
+        left: 30.2%;
+        top: 365%;
+        width: 455px;
+        height: 250px;
         margin: 5px;
         text-align: center;
         font-size: 3rem;
@@ -1011,7 +1018,7 @@ li {
     .fo-img {
         width: 250px;
         height: 100px;
-        margin: 5% 0 0 10%;
+        margin: 0% 0 0 0%;
         z-index: 3;
     }
 
@@ -1024,10 +1031,10 @@ li {
         position: absolute;
         background-color: var(--sixth-color);
         z-index: 1;
-        right: 14.1%;
-        top: 270.6%;
-        width: 500px;
-        height: 300px;
+        right: 35.9%;
+        top: 415.5%;
+        width: 450px;
+        height: 250px;
         margin: 5px;
         text-align: center;
         font-size: 3rem;
